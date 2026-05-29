@@ -6,7 +6,6 @@ resources:
   - redis-deployment.yaml
   - rabbitmq-deployment.yaml
   - gateway-deployment.yaml
-  - ingress.yaml
   - frontend-deployment.yaml
   - admin-deployment.yaml
 
