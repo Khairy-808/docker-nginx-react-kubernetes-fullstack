@@ -18,8 +18,3 @@ resources:
   - user-auth-deployment.yaml
   - platform-deployment.yaml
 
-secretGenerator:
-  - name: app-secrets
-    envs:
-      - .env
-    type: Opaque
