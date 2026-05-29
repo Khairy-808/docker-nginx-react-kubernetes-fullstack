@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: inventory
-        image: inventory:latest
-        imagePullPolicy: IfNotPresent
+        image: inventory:v2
+        imagePullPolicy: Never
         resources:
           requests:
             memory: "128Mi"

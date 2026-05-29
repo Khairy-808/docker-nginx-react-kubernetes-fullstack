@@ -37,6 +37,7 @@ spec:
           periodSeconds: 5
         ports:
         - containerPort: 80
+        env: []
 ---
 apiVersion: v1
 kind: Service

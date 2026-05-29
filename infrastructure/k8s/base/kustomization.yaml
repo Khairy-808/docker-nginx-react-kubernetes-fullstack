@@ -5,6 +5,8 @@ resources:
   - postgres-statefulset.yaml
   - redis-deployment.yaml
   - rabbitmq-deployment.yaml
+  - gateway-deployment.yaml
+  - ingress.yaml
   - frontend-deployment.yaml
   - admin-deployment.yaml
 
@@ -19,5 +21,5 @@ resources:
 secretGenerator:
   - name: app-secrets
     envs:
-      - ../../../.env
+      - .env
     type: Opaque
